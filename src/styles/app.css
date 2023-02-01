@@ -1,0 +1,95 @@
+:root {
+  --box-color: #fff;
+  --txt-color: #333333;
+  --bg-color: #f3f3f3;
+  --sub-txt-color: #fff;
+  --box-border: #d7d7d6;
+  --button-border: #c4c4c4;
+}
+
+div,
+span,
+article,
+section,
+header,
+main,
+footer,
+p,
+ul,
+li,
+label,
+a,
+nav,
+h1,
+h2,
+h3,
+form,
+input,
+button,
+img,
+textarea,
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body,
+button {
+  font-family: "Pretendard", "sans-serif";
+}
+
+body {
+  font-weight: 400;
+  color: var(--txt-color);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+table,
+thead,
+tbody,
+tr {
+  display: block;
+}
+
+/* 스크린리더가 읽을 수 있도록 대체텍스트 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+/* 말줄임 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  width: 416px;
+  height: 16px;
+}
