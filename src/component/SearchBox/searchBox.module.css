@@ -38,6 +38,7 @@
   background: #222222;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
 }
 
 .dropdown_wrapper {
@@ -87,6 +88,9 @@
   background-color: #fff;
   width: 100%;
   height: 40px;
+}
+.select_box li button:hover {
+  background: #d3d3d3;
 }
 li:first-child button {
   border-top-left-radius: 4px;
