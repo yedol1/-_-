@@ -3,6 +3,10 @@ BlockOdyssey assignment 이광렬
 
 ## Overview
 
+### How To Start
+1. .env 파일을 생성하여, ```REACT_APP_API_ROOT="https://dummyjson.com/products?limit=100"```를 입력하시고 저장해 주세요.
+2. ```npm i```
+3. ```npm start```
 ### Available_Libraries
 - React v17/ v18
 - react-query v4
