@@ -58,3 +58,13 @@
   height: 32px;
   object-fit: contain;
 }
+
+.tit_wrapper p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+.tit_wrapper {
+  width: 1448px;
+  margin: 26px auto;
+}
