@@ -45,11 +45,12 @@ html {
 
 body,
 button {
-  font-family: "Pretendard", "sans-serif";
+  font-family: 'Pretendard', 'sans-serif';
 }
 
 body {
   font-weight: 400;
+  background-color: #f3f3f3;
   color: var(--txt-color);
 }
 
