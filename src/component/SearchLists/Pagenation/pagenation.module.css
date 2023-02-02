@@ -1,0 +1,36 @@
+.nav_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-left: 56px;
+}
+
+.nav_wrapper button + button {
+  margin-left: 6px;
+}
+
+.page_btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.page_btn:hover {
+  background-color: #e4e4e4;
+  border: #838383;
+  cursor: pointer;
+}
+.page_btn[aria-current] {
+  background-color: #e4e4e4;
+  border: #838383;
+  cursor: revert;
+  transform: revert;
+}
+.page_btn img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
